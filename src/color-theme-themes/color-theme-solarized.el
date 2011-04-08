@@ -129,8 +129,8 @@ Ported to Emacs by Greg Pfeil, http://ethanschoonover.com/solarized."
        (ido-only-match ((t (:foreground ,green))))
 
        ;; latex
-       (font-latex-sectioning-0-face ((t (:foreground ,blue :height 4))))
-       (font-latex-sectioning-1-face ((t (:foreground ,blue  :height 2.5))))
+       (font-latex-sectioning-0-face ((t (:foreground ,blue :height 2.5))))
+       (font-latex-sectioning-1-face ((t (:foreground ,blue  :height 2.0))))
        (font-latex-sectioning-2-face ((t (:foreground ,yellow :height 1.5))))
        (font-latex-sectioning-3-face ((t (:foreground ,green :height 1.2))))
        (font-latex-sectioning-4-face ((t (:foreground ,orange :height 1.0))))
