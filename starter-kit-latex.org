@@ -81,7 +81,7 @@ This is part of the [[file:starter-kit.org][Emacs Starter Kit]].
     - Take this out to compile to DVI, instead.
 #+srcname: pdf-mode
 #+begin_src emacs-lisp 
-      (add-hook 'LaTeX-mode-hook 'TeX-PDF-mode)
+      (add-hook 'LaTeX-mode-hook (lambda () (TeX-PDF-mode t)))
 #+end_src
 
 *** Configure Biber
